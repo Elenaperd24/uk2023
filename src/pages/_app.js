@@ -3,24 +3,32 @@ import Link from "next/link"
 import "../../styles/global.css"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import Head from 'next/head';
 
 
 export default function App({ Component, pageProps }) {
     const router = useRouter()
     return (
         <>
-            <div className="body">
-             
-                    <Header />
-         
-                <div className="components">
-                    <Component {...pageProps} />
-                </div>
-       
-              {/* <Footer /> */}
-     
+            <Head>
+                <title>Home App</title>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet"
+                />
+            </Head>
+          
 
-            </div>
+                <Header />
+
+                    <Component {...pageProps} />
+        
+
+                <Footer />
+
+
+           
         </>
     )
 }
