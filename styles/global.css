@@ -1,0 +1,105 @@
+*{
+  background-color: gray;
+  margin: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  position: absolute;
+  top: 16px; 
+  left: 10%;
+  background-color: transparent;
+}
+
+.logo-white{
+  width: 200px;
+  background-color: transparent;
+}
+
+.list-navbar{
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  background-color: transparent;
+}
+
+.list-navbar li{
+  padding: 6px;
+  margin: 2px;
+  color: white;
+  background-color: transparent;
+}
+
+.icon-socialmedia{
+  color: white;
+  width: 20px;
+  padding: 2px;
+  background-color: transparent;
+
+}
+
+.social-media{
+  display: contents;
+  
+}
+
+/* home */
+
+.video-home{
+  width: 100%;
+  margin-top: -200px
+}
+
+.content-circlescards{
+background-color: #333333;
+position: relative;
+top: -100px;
+height: 300px;
+width: 100%;
+}
+
+.content-card{
+  display: flex;
+  position: absolute;
+  width: 60%;
+  justify-content: space-around;
+  top: -30%;
+ right: 20%;
+  background-color: transparent;
+
+}
+
+.circle-card{
+  height: 170px;
+  width: 170px;
+  border-radius: 100px;
+  background-color: #78776d;
+  color: white;
+  
+}
+
+.circle-card img{
+  background-color: transparent;
+}
+
+.circle-card h2{
+  text-align: center;
+  background-color: transparent;
+}
+
+.circle-card p{
+  text-align: center;
+  background-color: transparent;
+}
+
+.circle-card .masInfo{
+  border: solid 3px #21538f;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
