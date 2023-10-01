@@ -7,11 +7,10 @@ export default function Home() {
     return (
         <>
             <div className="video-bg">
-                <video className="video-home" width={"100%"} height={"60%"}
+                <video className="video-home" width={"100%"} height="100%"
                     loop autoPlay muted playsinline src="assets/videos/video-unopack.mp4" type="video.mp4">
-                </video>
+                </video> 
                 <h2 className="title-banner">Soluciones inteligentes en alquiler y ventas <br></br>de maquinas sopladoras</h2>
-
             </div>
 
             <div className="content-circlescards">
@@ -39,8 +38,6 @@ export default function Home() {
                     </div>
 
                 </div>
-
-
 
 
             </div> 

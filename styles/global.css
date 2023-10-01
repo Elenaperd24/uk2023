@@ -13,6 +13,8 @@
   display: flex;
   justify-content: space-around;
   padding: 10px 30px;
+  position: absolute;
+  top: 0;
   background-color: transparent;
   z-index: 2;
 }
@@ -42,7 +44,7 @@
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 25px #222;
   position: relative;
-  top: -100px;
+  top: 0;
   width: 100%;
   z-index: -1;
 }
@@ -52,7 +54,7 @@
   /* margin-top: -200px; */
   position: relative;
   top: 0;
-  top: 0;
+  /* height: 300px; */
   z-index: - 1;
   filter: brightness(30%);
 
@@ -61,11 +63,9 @@
 .content-circlescards {
   background-color: #12395B;
   position: relative;
-  top: -400px;
   height: 300px;
   width: 100%;
-  margin-top: 0;
-
+  top: 0;
 
 }
 
@@ -74,8 +74,8 @@
   position: absolute;
   width: 60%;
   justify-content: space-between;
-  top: -30%;
-  right: 20%;
+  /* top: -60px; */
+  /* right: 20%; */
   background-color: transparent;
 
 }
@@ -135,7 +135,7 @@
 /* second container */
 
 .title {
-  margin-top: -300px;
+  position: relative;
   text-align: center;
   color: #12395B;
 
@@ -155,6 +155,7 @@
 
 .cont-videos-cards {
   display: flex;
+  position: relative;
   justify-content: space-around;
   width: 80%;
   margin-right: auto;
@@ -190,6 +191,7 @@
 
 .button-play {
   display: flex;
+  position: relative;
   justify-content: center;
   margin-top: 100px;
 }
@@ -222,6 +224,7 @@
   width: 100%;
   height: 350px;
   display: flex;
+  position: relative;
   /* justify-content: center; */
   margin-top: 20px;
   background-color: #39A3CC;
@@ -255,6 +258,7 @@
 }
 
 .footer-home {
+  position: relative;
   height: 170px;
   width: 100%;
   position: relative;
@@ -354,17 +358,18 @@
 
   .content-card {
     height: 100%;
-    margin-top: 220px;
-    width: 500px;
+    /* margin-top: 300px; */
+    /* width: 500px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    right: 50px;
+    /* right: 50px; */
+    /* background-color: #39A3CC; */
   }
 
   .circle-card {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   .title {
